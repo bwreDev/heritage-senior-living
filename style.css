@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+}
+
+main {
+  height: 100%;
+}
+
+html {
+  background-color: #fff;
+  color: rgb(68, 65, 46);
+}
+
+header {
+  width: 100%;
+  margin-bottom: 3rem;
+  margin-top: 1.2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  padding-top: 5rem;
+  letter-spacing: 0.07rem;
+  line-height: 1.5;
+  font-family: "Ovo", serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(37, 32, 4);
+  opacity: 1;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(183, 158, 21);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(38, 42, 27.5);
+}
+
+.footer-logo {
+  height: 150px;
+  margin: auto;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.container p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05rem;
+  opacity: 0.8;
+  padding: 0px 9rem;
+}
+
+.container h1 {
+  padding: 0px 9rem;
+}
+
+.container {
+  margin: 0px auto;
+  padding: 0px 7rem;
+  width: 100%;
+}
+
+.bg-overlay {
+  height: 675px;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/images/heritage-soda-springs.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bottom-callout {
+  padding: 2rem 0rem;
+}
+
+.bottom-callout p {
+  font-size: 2rem;
+  opacity: 1;
+  font-style: italic;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+}
